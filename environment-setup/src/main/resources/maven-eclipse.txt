@@ -1,0 +1,8 @@
+
+##Allow us to create a simple java project
+mvn archetype:generate -DgroupId=vicpanizza -DartifactId=environment-setup -DarchetypeArtifactId=maven-archetype-quickstart
+mvn eclipse:eclipse
+
+##Allow us to create a simple web java project
+mvn archetype:generate -DgroupId=vicpanizza -DartifactId=vicaccounting -DarchetypeArtifactId=maven-archetype-webapp
+mvn eclipse:eclipse -Dwtpversion=2.0
